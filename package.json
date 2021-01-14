@@ -1,6 +1,6 @@
 {
-  "name": "random-string",
-  "version": "1.0.0",
+  "name": "randomstring-js",
+  "version": "1.0.1",
   "description": "Random string generator",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,18 @@
     "generator"
   ],
   "author": "Thiago Comelli",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoCComelli/randomstring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThiagoCComelli/randomstring/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/ThiagoCComelli/randomstring#readme"
 }

@@ -1,3 +1,3 @@
-const {randomstring} = require('./lib/index')
+import {randomstring} from './lib/index.js'
 
-module.exports.randomstring = randomstring
+export {randomstring}

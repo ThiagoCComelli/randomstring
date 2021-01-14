@@ -1,4 +1,5 @@
-module.exports = {
+
+var charset = {
     alphanumeric: () => {
         return 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     },
@@ -10,5 +11,10 @@ module.exports = {
     },
     hex: () => {
         return '0123456789abcdef'
+    },
+    binary: () => {
+        return '01'
     }
 }
+
+export {charset}
